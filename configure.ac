@@ -211,7 +211,7 @@ configured_to_build=
 
 if test x$enable_client = xyes ; then
   configured_to_build="client"
-  enable_xss="yes"
+  enable_xss="no"
 fi
 if test x$enable_manager = xyes ; then
   configured_to_build="${configured_to_build} manager"
